@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { Star, Firework } from "lucide-react";
+import { Star } from "lucide-react";
 import { useToast } from "@/components/ui/use-toast";
 
 const ClaimCard = () => {
