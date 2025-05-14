@@ -44,8 +44,9 @@
   .firework-5 { animation-delay: 0.8s; --x: 0px; --y: 150px; }
   
   .cursor-trail {
-    filter: blur(4px);
+    filter: blur(8px);
     mix-blend-mode: screen;
     pointer-events: none;
+    transition: all 0.1s ease-out;
   }
 }
