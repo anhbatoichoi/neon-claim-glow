@@ -42,4 +42,10 @@
   .firework-3 { animation-delay: 0.4s; --x: -50px; --y: 100px; }
   .firework-4 { animation-delay: 0.6s; --x: 50px; --y: 50px; }
   .firework-5 { animation-delay: 0.8s; --x: 0px; --y: 150px; }
+  
+  .cursor-trail {
+    filter: blur(4px);
+    mix-blend-mode: screen;
+    pointer-events: none;
+  }
 }
